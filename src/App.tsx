@@ -33,24 +33,7 @@ export default function App() {
 						</Typography>
 					</AccordionSummary>
 
-					{/* ....Ёгибекова Сафина */}
-
-					<Accordion>
-						<AccordionSummary
-							expandIcon={<ExpandMoreIcon />}
-							aria-controls='panel1-content'
-							id='panel1-header'
-						>
-							<Typography component='span'>
-								{' '}
-								<p style={{ fontWeight: 'bold' }}>Ёгибекова Сафина</p>{' '}
-							</Typography>
-						</AccordionSummary>
-						<AccordionDetails>
-							1) Бисеткахои подвал (пол) <br />
-							2) Лесницахо
-						</AccordionDetails>
-					</Accordion>
+					
 
 					{/* ....Имронова Насиба */}
 
@@ -428,6 +411,25 @@ export default function App() {
 						<AccordionDetails>
 							1) Лифт <br />
 							2) Гинцак
+						</AccordionDetails>
+					</Accordion>
+
+					{/* ....Ёгибекова Сафина */}
+
+					<Accordion>
+						<AccordionSummary
+							expandIcon={<ExpandMoreIcon />}
+							aria-controls='panel1-content'
+							id='panel1-header'
+						>
+							<Typography component='span'>
+								{' '}
+								<p style={{ fontWeight: 'bold' }}>Ёгибекова Сафина</p>{' '}
+							</Typography>
+						</AccordionSummary>
+						<AccordionDetails>
+							1) Бисеткахои подвал (пол) <br />
+							2) Лесницахо
 						</AccordionDetails>
 					</Accordion>
 
