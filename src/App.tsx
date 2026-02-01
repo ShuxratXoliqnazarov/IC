@@ -52,24 +52,6 @@ export default function App() {
 						</AccordionDetails>
 					</Accordion>
 
-					{/* .......Назридодова Саидмо */}
-
-					<Accordion>
-						<AccordionSummary
-							expandIcon={<ExpandMoreIcon />}
-							aria-controls='panel1-content'
-							id='panel1-header'
-						>
-							<Typography component='span'>
-								<p style={{ fontWeight: 'bold' }}>Назридодова Саидмо</p>{' '}
-							</Typography>
-						</AccordionSummary>
-						<AccordionDetails>
-							1) Бисеткахои подвал (диванен + девол) <br />
-							2) Девол (подвал)
-						</AccordionDetails>
-					</Accordion>
-
 					{/* ....Имронова Насиба */}
 
 					<Accordion>
@@ -115,6 +97,24 @@ export default function App() {
 							</Typography>
 						</AccordionSummary>
 						<AccordionDetails>1) Кунчен (боло)</AccordionDetails>
+					</Accordion>
+
+					{/* .......Назридодова Саидмо */}
+
+					<Accordion>
+						<AccordionSummary
+							expandIcon={<ExpandMoreIcon />}
+							aria-controls='panel1-content'
+							id='panel1-header'
+						>
+							<Typography component='span'>
+								<p style={{ fontWeight: 'bold' }}>Назридодова Саидмо</p>{' '}
+							</Typography>
+						</AccordionSummary>
+						<AccordionDetails>
+							1) Бисеткахои подвал (диванен + девол) <br />
+							2) Девол (подвал)
+						</AccordionDetails>
 					</Accordion>
 				</Accordion>
 
