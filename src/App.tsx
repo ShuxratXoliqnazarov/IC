@@ -211,7 +211,7 @@ export default function App() {
 							id='panel1-header'
 						>
 							<Typography component='span'>
-								<p style={{ fontWeight: 'bold' }}>Дороббекова Зухро</p>
+								<p style={{ fontWeight: 'bold' }}>Доробекова Зухро</p>
 							</Typography>
 						</AccordionSummary>
 						<AccordionDetails>
@@ -377,6 +377,24 @@ export default function App() {
 						<AccordionDetails>
 							1) Бисеткаен диванен,девол (подвал) <br />
 							2) Бисеткахои берун (скамейкаен)
+						</AccordionDetails>
+					</Accordion>
+
+					{/* ...Худоназарова Камилла */}
+
+					<Accordion>
+						<AccordionSummary
+							expandIcon={<ExpandMoreIcon />}
+							aria-controls='panel1-content'
+							id='panel1-header'
+						>
+							<Typography component='span'>
+								<p style={{ fontWeight: 'bold' }}>Худоназарова Камилла</p>
+							</Typography>
+						</AccordionSummary>
+						<AccordionDetails>
+							1) Руфтани пеши дари главний <br />
+							2) Плиинтус (подвал)
 						</AccordionDetails>
 					</Accordion>
 				</Accordion>
