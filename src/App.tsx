@@ -67,38 +67,9 @@ export default function App() {
 						</Typography>
 					</AccordionSummary>
 
-					{/* ....Силемоншоева Регина */}
+					
 
-					<Accordion>
-						<AccordionSummary
-							expandIcon={<ExpandMoreIcon />}
-							aria-controls='panel1-content'
-							id='panel1-header'
-						>
-							<Typography component='span'>
-								<p style={{ fontWeight: 'bold' }}>Силемоншоева Регина</p>
-							</Typography>
-						</AccordionSummary>
-						<AccordionDetails>1) Кунчен (боло)</AccordionDetails>
-					</Accordion>
-
-					{/* .......Назридодова Саидмо */}
-
-					<Accordion>
-						<AccordionSummary
-							expandIcon={<ExpandMoreIcon />}
-							aria-controls='panel1-content'
-							id='panel1-header'
-						>
-							<Typography component='span'>
-								<p style={{ fontWeight: 'bold' }}>Назридодова Саидмо</p>{' '}
-							</Typography>
-						</AccordionSummary>
-						<AccordionDetails>
-							1) Бисеткахои подвал (диванен + девол) <br />
-							2) Девол (подвал)
-						</AccordionDetails>
-					</Accordion>
+					
 				</Accordion>
 
 				{/* ...Чоршанбе +++*/}
@@ -148,6 +119,39 @@ export default function App() {
 							1) Скамейкаен (боло) <br />
 							2) Чои техникхо (боло)
 						</AccordionDetails>
+					</Accordion>
+
+					{/* .......Назридодова Саидмо */}
+
+					<Accordion>
+						<AccordionSummary
+							expandIcon={<ExpandMoreIcon />}
+							aria-controls='panel1-content'
+							id='panel1-header'
+						>
+							<Typography component='span'>
+								<p style={{ fontWeight: 'bold' }}>Назридодова Саидмо</p>{' '}
+							</Typography>
+						</AccordionSummary>
+						<AccordionDetails>
+							1) Бисеткахои подвал (диванен + девол) <br />
+							2) Девол (подвал)
+						</AccordionDetails>
+					</Accordion>
+
+					{/* ....Силемоншоева Регина */}
+
+					<Accordion>
+						<AccordionSummary
+							expandIcon={<ExpandMoreIcon />}
+							aria-controls='panel1-content'
+							id='panel1-header'
+						>
+							<Typography component='span'>
+								<p style={{ fontWeight: 'bold' }}>Силемоншоева Регина</p>
+							</Typography>
+						</AccordionSummary>
+						<AccordionDetails>1) Кунчен (боло)</AccordionDetails>
 					</Accordion>
 
 					{/* .... */}
@@ -384,7 +388,7 @@ export default function App() {
 
 				{/* ...Шанбе +++ */}
 
-				<Accordion>
+				<Accordion>1
 					<AccordionSummary
 						expandIcon={<ExpandMoreIcon />}
 						aria-controls='panel2-content'
