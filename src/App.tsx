@@ -67,7 +67,19 @@ export default function App() {
 						</Typography>
 					</AccordionSummary>
 
-					
+					{/* ....Силемоншоева Регина */}
+
+					<Accordion>
+						<AccordionSummary
+							expandIcon={<ExpandMoreIcon />}
+							aria-controls='panel1-content'
+							id='panel1-header'
+						>
+							<Typography component='span'>
+								<p style={{ fontWeight: 'bold' }}>It's empty</p>
+							</Typography>
+						</AccordionSummary>
+					</Accordion>
 
 					
 				</Accordion>
@@ -121,6 +133,7 @@ export default function App() {
 						</AccordionDetails>
 					</Accordion>
 
+
 					{/* .......Назридодова Саидмо */}
 
 					<Accordion>
@@ -154,24 +167,7 @@ export default function App() {
 						<AccordionDetails>1) Кунчен (боло)</AccordionDetails>
 					</Accordion>
 
-					{/* .... */}
-
-					{/* <Accordion>
-						<AccordionSummary
-							expandIcon={<ExpandMoreIcon />}
-							aria-controls='panel1-content'
-							id='panel1-header'
-						>
-							<Typography component='span'>
-								<p style={{ fontWeight: 'bold' }}>Силемоншоева Регина</p>
-							</Typography>
-						</AccordionSummary>
-						<AccordionDetails>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-							Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
-							eget.
-						</AccordionDetails>
-					</Accordion> */}
+					
 				</Accordion>
 
 				{/* ....Панчшанбе +++ */}
@@ -243,24 +239,7 @@ export default function App() {
 						</AccordionDetails>
 					</Accordion>
 
-					{/* .... */}
-
-					{/* <Accordion>
-						<AccordionSummary
-							expandIcon={<ExpandMoreIcon />}
-							aria-controls='panel1-content'
-							id='panel1-header'
-						>
-							<Typography component='span'>
-								<p style={{ fontWeight: 'bold' }}>Силемоншоева Регина</p>
-							</Typography>
-						</AccordionSummary>
-						<AccordionDetails>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-							Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
-							eget.
-						</AccordionDetails>
-					</Accordion> */}
+					
 				</Accordion>
 
 				{/* ...Чумъа +++ */}
@@ -388,7 +367,7 @@ export default function App() {
 
 				{/* ...Шанбе +++ */}
 
-				<Accordion>1
+				<Accordion>
 					<AccordionSummary
 						expandIcon={<ExpandMoreIcon />}
 						aria-controls='panel2-content'
